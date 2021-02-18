@@ -1,1 +1,1 @@
-## My Django APP
+## My Django project
