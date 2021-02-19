@@ -25,12 +25,14 @@ SECRET_KEY = '+o5y%p#0mhpu33m^jq3s(^&leeqzpj3ir8jvzuuxf6_p^_x=-y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+#
 ALLOWED_HOSTS = ['*']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    #
     'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -106,6 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
+#
 TIME_ZONE = 'GMT'
 
 USE_I18N = True
